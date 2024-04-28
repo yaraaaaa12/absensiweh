@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    background-image: url(style/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 00px){
+    .container{
+        background-image: url(style/bghp.jpg);
+        width: 100px;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        display: inline-block;
+        align-items: start;
+    }
+
+    .container button {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .inputan {
+        font-family: monospace;
+    }
+
+}
